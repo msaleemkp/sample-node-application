@@ -1,0 +1,26 @@
+{
+  "name": "express-sample",
+  "version": "1.0.0",
+  "description": "kicking off a sample express service from the scratch",
+  "main": "app.js",
+  "scripts": {
+    "test": "tes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msaleemkp/hello-world.git"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "Saleem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msaleemkp/hello-world/issues"
+  },
+  "homepage": "https://github.com/msaleemkp/hello-world#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
