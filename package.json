@@ -1,10 +1,10 @@
 {
   "name": "express-sample",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "kicking off a sample express service from the scratch",
   "main": "app.js",
   "scripts": {
-    "test": "tes"
+    "start": "node ./app.js"
   },
   "repository": {
     "type": "git",
