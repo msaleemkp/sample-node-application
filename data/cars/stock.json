@@ -1,0 +1,47 @@
+{
+  "name": "Cars list",
+  "items": [
+    {
+      "id": 1,
+      "name": "Audi",
+      "model": "Q7",
+      "trim": "Premium Plus",
+      "year": "2018"
+    },
+    {
+      "id": 2,
+      "name": "Audi",
+      "model": "Q7",
+      "trim": "Prestige",
+      "year": "2019"
+    },
+    {
+      "id": 3,
+      "name": "Audi",
+      "model": "Q7",
+      "trim": "Prestige",
+      "year": "2021"
+    },
+    {
+      "id": 4,
+      "name": "Toyota",
+      "model": "Highlander",
+      "trim": "XLE",
+      "year": "2023"
+    },
+    {
+      "id": 5,
+      "name": "Toyota",
+      "model": "Highlander",
+      "trim": "Limited",
+      "year": "2023"
+    },
+    {
+      "id": 6,
+      "name": "Honda",
+      "model": "Pilot",
+      "trim": "LE",
+      "year": "2023"
+    }
+  ]
+}
