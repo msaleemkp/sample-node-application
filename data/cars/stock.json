@@ -42,6 +42,13 @@
       "model": "Pilot",
       "trim": "LE",
       "year": "2023"
+    },
+    {
+      "id": 7,
+      "name": "Kia",
+      "model": "Telluride",
+      "trim": "SE",
+      "year": "2023"
     }
   ]
 }
