@@ -21,11 +21,11 @@ const addCar = (request, cb) => {
             cb(error, null);
         } else {
             const updatedData = [...data.items, request.body].map((car, index) => {
-                    return { 
-                        id: index +1,
-                        ...car, 
-                    }
-                });
+                return { 
+                    id: index +1,
+                    ...car, 
+                }
+            });
             const updatedStock = {"name": "Cars list", "items": updatedData};
             const requestData = JSON.stringify(updatedStock, null, 2);
             fs.writeFile(getDataFilePath(), requestData, (err) => {
