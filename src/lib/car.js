@@ -15,6 +15,7 @@ const listCars = (cb) => {
         }
     });
 };
+
 const addCar = (request, cb) => {
     listCars((data, error) => {
         if (error) {
