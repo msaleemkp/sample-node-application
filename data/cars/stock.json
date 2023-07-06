@@ -77,6 +77,20 @@
       "model": "X90",
       "trim": "Sports",
       "year": "2023"
+    },
+    {
+      "id": 12,
+      "name": "BMW",
+      "model": "X5",
+      "trim": "Sports",
+      "year": "2023"
+    },
+    {
+      "id": 13,
+      "name": "BMW",
+      "model": "X6",
+      "trim": "Sports",
+      "year": "2023"
     }
   ]
 }

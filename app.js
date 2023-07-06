@@ -1,8 +1,10 @@
 const express = require('express');
 const routes = require('./src/routes');
+const { resolve } = require('path');
+const basePath = resolve(__dirname);
 
 global.appSetting = {
-    basePath: __dirname,
+    basePath: basePath,
 }
 
 const app = express();
