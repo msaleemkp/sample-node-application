@@ -4,7 +4,6 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require("copy-webpack-plugin");
 const distPath = resolve(__dirname + '/dist');
 const distDataPath = resolve(distPath + '/data');
-const distNodeModulePath = resolve(distPath + '/node_modules');
 
 module.exports = {
     mode: 'development',

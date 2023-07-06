@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { resolve, dirname } = require('path');
+const { resolve } = require('path');
 
 const getDataFilePath = () => {
     return resolve('./data/cars/stock.json');
