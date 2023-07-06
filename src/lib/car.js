@@ -2,7 +2,7 @@ const fs = require('fs');
 const { resolve } = require('path');
 
 const getDataFilePath = () => {
-    return resolve(appSetting.basePath + '/data/cars/stock.json');
+    return resolve('./data/cars/stock.json');
 };
 
 const listCars = (cb) => {

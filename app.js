@@ -1,10 +1,11 @@
 const express = require('express');
 const routes = require('./src/routes');
+const appConfigs = require('./package.json');
 
-global.appSetting = {
-    basePath: __dirname,
+global.appSettings = {
+    name: appConfigs.name,
+    version: appConfigs.version,
 }
-
 const app = express();
 app.use(express.json());
 routes(app);
