@@ -6,9 +6,6 @@ const distPath = resolve(__dirname + '/dist');
 const distDataPath = resolve(distPath + '/data');
 
 module.exports = {
-    mode: 'development',
-    externalsPresets: { node: true },
-    externals: [nodeExternals()],
     entry: './app.js',
     output: { 
         path: distPath,
@@ -27,7 +24,12 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: './data/**/*', to: distDataPath },
+                { from: './package.json', to: distPath},
+                { from: './public/**/*', to: distPath},
             ],
         }),
     ],
+    externalsPresets: { node: true }, // in order to ignore built-in modules like path, fs, etc.
+    externals: [nodeExternals()], // in order to ignore all modules in node_modules folder
+    mode: 'development',
 };
