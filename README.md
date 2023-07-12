@@ -1,2 +1,2 @@
-# hello-world
+# sample-node-application
 Starting with with GitHub 
