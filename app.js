@@ -1,4 +1,5 @@
 const express = require('express');
+const config = require('config');
 const routes = require('./src/routes');
 const appConfigs = require('./package.json');
 
@@ -10,4 +11,4 @@ const app = express();
 app.use(express.json()); //Allows JSON data as request body
 app.use('/static', express.static('public'))
 routes(app);
-app.listen(3000, () => console.log('Application is running listening to 3000'));
+app.listen(config.get('app.port'), () => console.log(config.get('app.startUpMessage') + ' in ' + config.get('app.env') + ' mode listening to port ' + config.get('app.port')));

@@ -91,6 +91,27 @@
       "model": "X6",
       "trim": "Sports",
       "year": "2023"
+    },
+    {
+      "id": 14,
+      "name": "Mercedes Benz",
+      "model": "S Class",
+      "trim": "S600",
+      "year": "2023"
+    },
+    {
+      "id": 15,
+      "name": "Mercedes Benz",
+      "model": "G63",
+      "trim": "Prestige",
+      "year": "2020"
+    },
+    {
+      "id": 16,
+      "name": "Mercedes Benz",
+      "model": "Mayback",
+      "trim": "GL600",
+      "year": "2023"
     }
   ]
 }
