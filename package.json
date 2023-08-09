@@ -1,13 +1,12 @@
 {
   "name": "express-sample",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "kicking off a sample express service from the scratch",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon ./app.js",
     "build": "webpack --config webpack-config.js",
-    "start": "node dist/application.js"
-
+    "start": "node dist/application.js NODE_ENV=development"
   },
   "repository": {
     "type": "git",
@@ -32,5 +31,8 @@
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "config": "^3.3.9"
   }
 }

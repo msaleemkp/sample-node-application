@@ -23,6 +23,7 @@ module.exports = {
           }),
         new CopyPlugin({
             patterns: [
+                { from: './config/*', to: distPath },
                 { from: './data/**/*', to: distDataPath },
                 { from: './package.json', to: distPath},
                 { from: './public/**/*', to: distPath},
