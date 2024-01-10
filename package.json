@@ -1,6 +1,6 @@
 {
   "name": "express-sample",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "kicking off a sample express service from the scratch",
   "main": "app.js",
   "scripts": {
